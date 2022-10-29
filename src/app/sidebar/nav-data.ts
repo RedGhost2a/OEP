@@ -16,22 +16,22 @@ export const navbarData = [
     label: 'Home'
   },
   {
-    routeLink: '',
+    routeLink: 'dashboard',
     icon: faChartLine,
     label: 'Tableau de bord'
   },
   {
-    routeLink: '',
+    routeLink: 'clients',
     icon: faList,
     label: 'Clients'
   },
   {
-    routeLink: '',
+    routeLink: 'devis',
     icon: faFileInvoiceDollar,
     label: 'Devis'
   },
   {
-    routeLink: '',
+    routeLink: 'bibliotheque',
     icon: faBook,
     label: 'Bibliothéque de prix'
   },

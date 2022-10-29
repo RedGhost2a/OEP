@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 
+
 interface SideNavToggle {
   screenWidth:number;
   collapsed:boolean;
@@ -12,11 +13,10 @@ interface SideNavToggle {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'OEP';
 
+  title = 'OEP';
   isSidebarCollapsed = false;
   screenWidth = 0;
-
 
   onToggleSidebar(data:SideNavToggle):void{
     this.screenWidth = data.screenWidth;
@@ -25,3 +25,10 @@ export class AppComponent {
 
 
 }
+
+
+
+
+
+
+

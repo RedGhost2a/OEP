@@ -9,6 +9,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { BibliothequeComponent } from './bibliotheque/bibliotheque.component';
 import { ClientsComponent } from './clients/clients.component';
 import { DevisComponent } from './devis/devis.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -18,12 +22,16 @@ import { DevisComponent } from './devis/devis.component';
     DashboardComponent,
     BibliothequeComponent,
     ClientsComponent,
-    DevisComponent
+    DevisComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

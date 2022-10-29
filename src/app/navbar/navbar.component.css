@@ -1,0 +1,11 @@
+mat-toolbar {
+  background: #263238;
+  height: 60px;
+  box-shadow: 0.063rem 0 1.25rem 0 #8690a3;
+}
+
+.title {
+  color: #f3f3f3;
+}
+
+/*# sourceMappingURL=navbar.component.css.map */

@@ -1,0 +1,17 @@
+<div class="sidebar" [ngClass]="collapsed ? 'sidebar-collapsed' :'' ">
+  <div class="logo-container">
+    <button class="logo" (click)="toggleCollapse()">O</button>
+    <div class="logo-text" *ngIf="collapsed">Ardoise</div>
+    <button class="btn-close" *ngIf="collapsed" (click)="closeSidebar()">
+      <fa-icon class="sidebar-link-icon" [icon]="btnClose"></fa-icon>
+    </button>
+  </div>
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item" *ngFor="let data of navData" >
+      <a href="" class="sidebar-nav-link" [routerLink]="[data.routeLink]" >
+        <fa-icon class="sidebar-link-icon" [icon]="data.icon"></fa-icon>
+        <span class="sidebar-link-text" *ngIf="collapsed">{{data.label}}</span>
+      </a>
+    </li>
+  </ul>
+</div>

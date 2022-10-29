@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -24,7 +25,11 @@
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "material": "^0.4.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

@@ -30,7 +30,7 @@
 .logo-container .logo-text {
   margin-left: 1.5rem;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 900;
   color: #fff;
 }
 .logo-container .btn-close {
@@ -66,14 +66,14 @@
 .sidebar-nav .sidebar-nav-link {
   display: flex;
   align-items: center;
-  height: 3rem;
+  height: 4rem;
   color: #f3f3f3;
   text-decoration: none;
   transition: color 0.3s ease;
   border-radius: 0.625rem;
 }
 .sidebar-nav .sidebar-link-icon {
-  font-size: 22px;
+  font-size: 25px;
   width: 2rem;
   min-width: 2rem;
   text-align: center;

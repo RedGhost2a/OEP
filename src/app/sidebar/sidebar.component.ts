@@ -1,5 +1,5 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {btnClose, navbarData} from "./nav-data";
+import {btnClose, btnHome, navbarData} from "./nav-data";
 
 
 interface SideNavToggle {
@@ -19,6 +19,8 @@ export class SidebarComponent implements OnInit {
   screenWidth = 0;
   navData = navbarData;
   btnClose =btnClose;
+  btnHome = btnHome;
+
 
 
 

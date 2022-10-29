@@ -1,6 +1,9 @@
 <div class="sidebar" [ngClass]="collapsed ? 'sidebar-collapsed' :'' ">
   <div class="logo-container">
-    <button class="logo" (click)="toggleCollapse()">O</button>
+    <button class="logo" (click)="toggleCollapse()">
+      <fa-icon class="sidebar-link-icon" [icon]="btnHome"></fa-icon>
+    </button>
+
     <div class="logo-text" *ngIf="collapsed">Ardoise</div>
     <button class="btn-close" *ngIf="collapsed" (click)="closeSidebar()">
       <fa-icon class="sidebar-link-icon" [icon]="btnClose"></fa-icon>

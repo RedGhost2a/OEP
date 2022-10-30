@@ -6,3 +6,22 @@
     <a class="nav-button" >Ajouter un client</a>
   </div>
 </div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>id</th>
+    <th>Vile</th>
+    <th>Nom</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  <tr  *ngFor="let data of client">
+    <td>{{ data.id }}</td>
+    <td>{{ data.city }}</td>
+    <td>{{ data.firstname }}</td>
+    <td>{{ data.lastname }}</td>
+    <td>{{ data.phonenumber }}</td>
+  </tr>
+  </tbody>
+</table>

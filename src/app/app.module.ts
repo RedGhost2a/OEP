@@ -13,6 +13,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatButtonModule} from "@angular/material/button";
+import {RouterModule, Routes} from '@angular/router';
+
+const appRoutes: Routes = [];
 
 @NgModule({
   declarations: [
@@ -32,8 +35,12 @@ import {MatButtonModule} from "@angular/material/button";
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
+    RouterModule.forRoot(appRoutes)
+
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
